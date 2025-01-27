@@ -943,6 +943,7 @@ Text::make('Name')->withUpdateRow('index-table-post-resource')
 Text::make('Name')->updateOnPreview(url: '/my/url')->withUpdateRow()
 ```
 
+<a name="update-in-popover"></a>
 ### updateInPopover
 
 Метод `updateInPopover()` работает аналогично методу `withUpdateRow()`, но теперь все значения для редактирования появляются в отдельном окне.
